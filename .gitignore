@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Downloaded Instacart data (see README for source)
+data/
+orders.csv
+products.csv
+order_products__prior.csv
+order_products__train.csv
+departments.csv
+aisles.csv
