@@ -1,8 +1,8 @@
-# Instacart Product Recommendation with Implicit ALS
+# Instacart Product Recommendation with ALS
 
-A learning project that builds a basic grocery product recommender from past purchases. The notebook converts Instacart order histories into a user–product interaction matrix, trains an implicit-feedback Alternating Least Squares (ALS) model, and retrieves product recommendations for an example user.
+A learning project that builds a basic grocery product recommender from past purchases. The notebook converts Instacart order histories into a user–product interaction matrix of purchase counts, trains an Alternating Least Squares (ALS) model, and retrieves product recommendations for an example user.
 
-Inspired by the [Building a MovieLens Recommender System workshop](https://www.youtube.com/watch?v=XfAe-HLysOM&t=3257s), I applied a more industry-oriented collaborative filtering approach to **Instacart** purchase histories: building a sparse user–product interaction matrix and training an **implicit ALS** model to generate recommendations.
+Inspired by the [Building a MovieLens Recommender System workshop](https://www.youtube.com/watch?v=XfAe-HLysOM&t=3257s), I applied a more industry-oriented collaborative filtering approach to **Instacart** purchase histories: building a sparse user–product interaction matrix and training an **ALS** model to generate recommendations.
 
 ## What the notebook implements
 
